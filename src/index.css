@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiro+Bangla:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiro+Bangla:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.invitationFont{
+  font-family: "Oleo Script", system-ui;
+}
+.invitationTextFont{
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+}
+
+.font_sans {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.font_bangla{
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+.max-w-7xl {
+  max-width: 1400px;
+}
+.line_height{
+  line-height: 1.75rem;
+}
+.line_height_36px {
+  line-height: 2.25rem /* 36px */
+}
+
+/* ================ Status Code ================ */
+.bg_status_primary{
+  background-color: #DDDBFB;
+  font-size: 12px;
+  padding: 1px 10px;
+  color: #9D95F4;
+}
+.bg_status_secondary{
+  background-color: #EAEBEC;
+  font-size: 12px;
+  padding: 1px 10px;
+  color: #C0C2C5;
+}
+.bg_status_success{
+  background-color: #CBF2DC;
+  font-size: 12px;
+  padding: 1px 10px;
+  color: #28C76F;
+}
+
+
+/* =================== Button ========================== */
+.button_primary {
+  background-color: #6f00ff;
+  color: white;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 14px;
+  border: none;
+  transition: .3s all ease-in-out;
+}
+
+.button_primary:hover {
+  background-color: #29439A;
+}
+
+.button_secondary {
+  background-color: #D1D5DB;
+  color: black;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 14px;
+  border: none;
+  transition: .3s all ease-in-out;
+}
+
+.button_secondary:hover {
+  background-color: #babec4;
+}
+
+.button_delete {
+  background-color: #ff2600;
+  color: white;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 14px;
+  border: none;
+  transition: .3s all ease-in-out;
+}
+
+.button_delete:hover {
+  background-color: #cc0101;
+}
+
+.button_vanished {
+  color: #F7961D;
+  border-radius: 4px;
+  border: 1px solid #F7961D;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 14px;
+  height: 40px;
+  transition: 0.3s all ease-in-out;
+}
+
+.swiper-button-prev {
+  color: #00964A !important;
+  position: absolute !important;
+  left: -2px !important;
+}
+
+.swiper-button-next {
+  color: #00964A !important;
+  position: absolute !important;
+  right: -2px !important;
+}
+
+.p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
+  color: #00964A !important;
+}
+
+
+/* Scroll Bar Setup */
+
+::-webkit-scrollbar {
+  width: 2px;
+  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* Color of the track (area behind the scrollbar) */
+  border-radius: 4px;
+  /* Rounded corners of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #374151;
+  /* Blue color for the scrollbar thumb */
+  border-radius: 4px;
+  /* Rounded corners of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2980b9;
+  /* Darker blue color on hover */
+}
+
+
+/* Disable color for radio */
+.custom-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Style the radio button when checked */
+.custom-radio:checked {
+  border-color: #0771BA;
+}
+
+.custom-radio:checked::before {
+  content: '';
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #0771BA;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rounded-t-lg {
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+
+.border-t-4 {
+  border-top-width: 4px;
+}
+
+.border-t-slate-400 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(148 163 184 / var(--tw-border-opacity));
+}
+
+.border-l-4 {
+  border-left-width: 4px;
+}
+
+.border-green-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(34 197 94 / var(--tw-border-opacity));
+}
+
+.rounded-t {
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.py-6 {
+  padding-top: .375rem;
+  padding-bottom: .375rem;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-size: 16px;
+}
+.h-10 {
+  height: 2.5rem;
+}
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+.border-slate-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 116 139 / var(--tw-border-opacity));
+}
+
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.02);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.scale-animation {
+  animation: scaleAnimation 1s;
+}
+.border-x-primary-500 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(6 40 75 / var(--tw-border-opacity));
+  border-right-color: rgb(6 40 75 / var(--tw-border-opacity));
+}
+.border {
+  border-width: 1px;
+}
+.bg-primary-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 40 75 / var(--tw-bg-opacity));
+}
+.text-lime {
+  --tw-text-opacity: 1;
+  color: rgb(132 204 22 / var(--tw-text-opacity));
+}
+.bg-emerald {
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 150 105 / var(--tw-bg-opacity));
+}
+.bg-emerald:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 185 129 / var(--tw-bg-opacity));
+}
+.bg-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+.custom-bullets {
+  list-style: none;
+  /* Remove default bullets */
+  padding-left: 0;
+  /* Remove default padding */
+}
+
+.custom-bullets li {
+  position: relative;
+  padding-left: 20px;
+  /* Space for the custom bullet */
+}
+
+.custom-bullets li::before {
+  content: '•';
+  /* Custom bullet */
+  position: absolute;
+  left: 0;
+  color: black;
+  /* Change bullet color as needed */
+  font-size: 1.5em;
+  /* Adjust bullet size */
+  line-height: 1;
+}
+
+
+/* Hide the default checkbox */
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px; /* Adjust the size of the checkbox */
+  height: 20px; /* Adjust the size of the checkbox */
+  border: 1px solid #685DD8; /* Border color */
+  border-radius: 20%; /* Make it round */
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  position: relative; /* Ensure proper positioning of checkmark */
+}
+
+/* Custom styles for checked state */
+input[type="checkbox"]:checked {
+  background-color: #685DD8; /* Background color when checked */
+  border-color: #685DD8; /* Border color when checked */
+}
+
+/* Custom styles for unchecked state */
+input[type="checkbox"]:not(:checked) {
+  background-color: #fff; /* Background color when unchecked */
+  border-color: #ccc; /* Border color when unchecked */
+}
+
+/* Optional: Add a checkmark icon */
+input[type="checkbox"]::after {
+  content: "\2713"; /* Unicode checkmark symbol */
+  font-size: 14px; /* Adjust size as needed */
+  color: #fff; /* Color of the checkmark */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Hide by default */
+  transition: opacity 0.3s; /* Smooth transition */
+}
+
+/* Show the checkmark icon when checkbox is checked */
+input[type="checkbox"]:checked::after {
+  opacity: 1;
+}
+/* for registration */
+ .form-section {
+   padding: 20px;
+   border: 1px solid #dee2e6;
+   margin-bottom: 20px;
+ }
+
+ .form-title {
+   background-color: #6f42c1;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+ .passport-photo {
+   border: 1px solid #6f42c1;
+   padding: 10px;
+   text-align: center;
+   width: 150px;
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .section-title {
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+
+ .form-footer {
+   margin-top: 20px;
+   text-align: center;
+ }

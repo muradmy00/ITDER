@@ -1,0 +1,147 @@
+export const products = [
+   
+    {
+        "id": 3,
+        "user_id": "1",
+        "trainer_id": "2",
+        "course_name": "Admin Full Support",
+        "regular_price": "12000",
+        "discount_price": "8000",
+        "trainer": null,
+        "photo": "https://itder.com/storage/uploads/course/8655491729531301.png",
+        "status": "1",
+        "created_at": "21-10-2024 17:21:41",
+        "updated_at": "21-10-2024 17:21:41",
+        "trainer_data": {
+            "id": 2,
+            "user_id": "1",
+            "name": "Bashir Ahmed",
+            "phone": "01947225599",
+            "details": "Hi",
+            "photo": "https://itder.com/storage/uploads/trainer/6951221729531073.png",
+            "status": "1",
+            "created_at": "21-10-2024 17:17:53",
+            "updated_at": "21-10-2024 17:17:53"
+        }
+    },
+    {
+        "id": 1,
+        "user_id": "1",
+        "trainer_id": "1",
+        "course_name": "English",
+        "regular_price": "200",
+        "discount_price": "100",
+        "trainer": null,
+        "photo": "https://itder.com/storage/uploads/course/4624191729512058.png",
+        "status": "1",
+        "created_at": "21-10-2024 12:00:58",
+        "updated_at": "21-10-2024 12:00:58",
+        "trainer_data": {
+            "id": 1,
+            "user_id": "1",
+            "name": "Masud Akbar",
+            "phone": "01897865456",
+            "details": "hi",
+            "photo": "https://itder.com/storage/uploads/trainer/5702571729512011.png",
+            "status": "1",
+            "created_at": "21-10-2024 12:00:11",
+            "updated_at": "21-10-2024 12:00:11"
+        }
+    },
+    {
+        "id": 6,
+        "user_id": "1",
+        "trainer_id": "3",
+        "course_name": "Graphics  Full Support",
+        "regular_price": "12500",
+        "discount_price": "12000",
+        "trainer": null,
+        "photo": "https://itder.com/storage/uploads/course/5304721729531416.png",
+        "status": "1",
+        "created_at": "21-10-2024 17:23:36",
+        "updated_at": "21-10-2024 17:23:36",
+        "trainer_data": {
+            "id": 3,
+            "user_id": "1",
+            "name": "Dhrubo Jyoti Das",
+            "phone": "01774444000",
+            "details": "hi",
+            "photo": "https://itder.com/storage/uploads/trainer/4606921729531092.png",
+            "status": "1",
+            "created_at": "21-10-2024 17:18:12",
+            "updated_at": "21-10-2024 17:18:12"
+        }
+    },
+    {
+        "id": 5,
+        "user_id": "1",
+        "trainer_id": "3",
+        "course_name": "Medical Admission",
+        "regular_price": "25000",
+        "discount_price": "22000",
+        "trainer": null,
+        "photo": "https://itder.com/storage/uploads/course/1433531729531385.png",
+        "status": "1",
+        "created_at": "21-10-2024 17:23:05",
+        "updated_at": "21-10-2024 17:23:05",
+        "trainer_data": {
+            "id": 3,
+            "user_id": "1",
+            "name": "Dhrubo Jyoti Das",
+            "phone": "01774444000",
+            "details": "hi",
+            "photo": "https://itder.com/storage/uploads/trainer/4606921729531092.png",
+            "status": "1",
+            "created_at": "21-10-2024 17:18:12",
+            "updated_at": "21-10-2024 17:18:12"
+        }
+    },
+    {
+        "id": 4,
+        "user_id": "1",
+        "trainer_id": "4",
+        "course_name": "Python Engineering",
+        "regular_price": "25000",
+        "discount_price": "22000",
+        "trainer": null,
+        "photo": "https://itder.com/storage/uploads/course/2878081729531330.png",
+        "status": "1",
+        "created_at": "21-10-2024 17:22:10",
+        "updated_at": "21-10-2024 17:22:10",
+        "trainer_data": {
+            "id": 4,
+            "user_id": "1",
+            "name": "Mojaddid-E-Alfe Sany",
+            "phone": "01733165886",
+            "details": "hi",
+            "photo": "https://itder.com/storage/uploads/trainer/7753901729531123.png",
+            "status": "1",
+            "created_at": "21-10-2024 17:18:44",
+            "updated_at": "21-10-2024 17:18:44"
+        }
+    },
+    {
+        "id": 2,
+        "user_id": "1",
+        "trainer_id": "1",
+        "course_name": "The Complete WordPress Website Course",
+        "regular_price": "18000",
+        "discount_price": "15000",
+        "trainer": null,
+        "photo": "https://itder.com/storage/uploads/course/9298281729531272.png",
+        "status": "1",
+        "created_at": "21-10-2024 17:21:12",
+        "updated_at": "21-10-2024 17:21:12",
+        "trainer_data": {
+            "id": 1,
+            "user_id": "1",
+            "name": "Masud Akbar",
+            "phone": "01897865456",
+            "details": "hi",
+            "photo": "https://itder.com/storage/uploads/trainer/5702571729512011.png",
+            "status": "1",
+            "created_at": "21-10-2024 12:00:11",
+            "updated_at": "21-10-2024 12:00:11"
+        }
+    }
+]

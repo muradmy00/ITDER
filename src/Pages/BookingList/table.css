@@ -1,0 +1,8 @@
+/* TableToPDF.css */
+
+@media print {
+    .print-hidden {
+      display: none;
+    }
+  }
+  
